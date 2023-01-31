@@ -1,0 +1,20 @@
+.verify_input{
+    display: flex;
+    gap: 1rem;
+    margin: 5rem 0;
+}
+.email-verify .verify_input input{
+    width: 50px;
+    height: 60px;
+    display: inline;
+    border: 1px solid #01C8FF;
+    font-size: 20px;
+    padding: .5rem;
+    border-radius: 10px;
+}
+.email-verify .verify_input input:focus{
+    border: 1px solid #01C8FF;
+    outline: none;
+    font-size: 20px;
+    padding: .5rem;
+}

@@ -1,0 +1,22 @@
+{
+  "user": [
+    {
+      "name": "Ovie",
+      "email": "oviedavid77@gmail.com",
+      "phone": "+234 814 948 5675",
+      "password": "123",
+      "checker": "false",
+      "id": 1
+    },
+    {
+      "email": "oviedavid77@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "email": "Reeyasundra1@gmail.com",
+      "password": "322",
+      "id": 3
+    }
+  ]
+}

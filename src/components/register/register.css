@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+
+.container{
+  padding: 2rem 1.5rem;
+}
+.container>h3{
+  font-size: 18px;
+  font-weight: 300;
+  color:#01C8FF;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.register{
+  background: #E3ECFF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+ 
+}
+.register>.left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 2rem;
+  width: 60%;
+}
+.register>.left img{
+  align-self: center;
+  margin-bottom: -1rem;;
+}
+.register>.left h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33.18px;
+  line-height: 40px;
+  letter-spacing: 0.01em;
+  color: #0D0D26;
+  margin-left: 3rem;
+}
+.register>.left>p{
+  margin-left: 3rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  margin-bottom: 1.5rem;
+  color: #4B4A4A;
+}
+.register>.left form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  align-items: center;
+  justify-content: center;
+}
+/* .register>.left form .form_item{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+} */
+.register>.left form .form_item label{
+  display: block;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(75, 74, 74, 0.79);
+}
+.register>.left>form>.form_item>input:not(.check, .btn-submit ){
+  box-sizing: border-box;
+  width: 550px;
+  height: 40px;
+  border: 1.5px solid #01C8FF;
+  border-radius: 5px;
+  padding: 0 .5rem;
+}
+.register>.left>form>.form_item>input:not(.check, .btn-submit):focus{
+  border: .3px solid #01c8ff63;
+  outline: none;
+  color: rgba(75, 74, 74, 0.79);
+}
+.checkEl{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 3rem;
+  font-size: 12px;
+  color: rgba(75, 74, 74, 0.79);
+  align-self: flex-start;
+}
+.checkEl p{
+  font-size: 12px;
+  color: rgba(75, 74, 74, 0.79);
+}
+
+.button{
+  align-self: center;
+}
+.btn-submit{
+  padding: 1rem 14rem;
+  background: #01C8FF;
+  font-size: 17px;
+  font-weight: 400;
+  border-radius: 10px;
+  border: none;
+}
+.form_item{
+  position: relative;
+}
+.pass>img{
+  position: absolute;
+  top: 30px;
+  right: 10px;
+}
+.register>.left>form>small{
+  text-align: center;
+  margin-left: -2rem;
+  color: rgba(75, 74, 74, 0.79);
+}
+.register>.left>form>small>span a{
+  color:#01C8FF;
+}
+.register>.right{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #01C8FF;
+  width: 40%;
+  height: 100vh;
+  position: relative;
+}
+.register>.right img{
+  position: absolute;
+  left: -5rem;
+  transform: translateY(25%);
+}
