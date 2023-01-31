@@ -17,6 +17,19 @@
       "email": "Reeyasundra1@gmail.com",
       "password": "322",
       "id": 3
+    },
+    {
+      "name": "Ovie",
+      "email": "oviedavid77@gmail.com",
+      "phone": "+2348149485675",
+      "password": "12345",
+      "checker": "off",
+      "id": 4
+    },
+    {
+      "email": "oviedavid77@gmail.com",
+      "password": "12345",
+      "id": 5
     }
   ]
 }
